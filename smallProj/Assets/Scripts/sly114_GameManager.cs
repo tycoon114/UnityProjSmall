@@ -83,4 +83,10 @@ public class sly114_GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    void ScoreManager() { 
+    
+    }
+
+
 }
