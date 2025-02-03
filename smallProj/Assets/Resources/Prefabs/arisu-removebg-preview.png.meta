@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      arisu-removebg-preview_0: -8940307856157671314
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
