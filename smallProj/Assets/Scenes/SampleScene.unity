@@ -333,7 +333,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -386,13 +386,13 @@ GameObject:
   - component: {fileID: 528100308}
   - component: {fileID: 528100310}
   - component: {fileID: 528100309}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (1)
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &528100308
 Transform:
   m_ObjectHideFlags: 0
@@ -604,13 +604,13 @@ GameObject:
   - component: {fileID: 636119085}
   - component: {fileID: 636119087}
   - component: {fileID: 636119086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (3)
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &636119085
 Transform:
   m_ObjectHideFlags: 0
@@ -1008,13 +1008,13 @@ GameObject:
   - component: {fileID: 1106635299}
   - component: {fileID: 1106635301}
   - component: {fileID: 1106635300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (2)
   m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1106635299
 Transform:
   m_ObjectHideFlags: 0
@@ -1143,6 +1143,7 @@ GameObject:
   - component: {fileID: 1216392120}
   - component: {fileID: 1216392122}
   - component: {fileID: 1216392123}
+  - component: {fileID: 1216392124}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1265,6 +1266,42 @@ MonoBehaviour:
   firePoint: {fileID: 1216392121}
   bulletSpeed: 10
   specialAttackDuration: 0.3
+--- !u!58 &1216392124
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216392119}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
 --- !u!1 &1261661739
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,7 +1313,7 @@ GameObject:
   - component: {fileID: 1261661742}
   - component: {fileID: 1261661741}
   - component: {fileID: 1261661740}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: Wall
   m_Icon: {fileID: 0}
